@@ -1,0 +1,1 @@
+// cuidado ao selecionar parte do texto no code runner do vscode

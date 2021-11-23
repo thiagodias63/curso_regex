@@ -18,9 +18,9 @@ const telefones = `Lista telefonica
     328596-33647
     858741236
 `
-const regexTelefone = /(.{1}\d.{1,2}|\d){1,14}/g
-const regexTelefoneCorrecao = /\(?\d{0,2}?\)?\s?\d{4,5}-?\d{4}/g
+const regexTelefone = /\(?\d{0,2}?\)?\s?\d{4,5}-?\d{4}/g
 console.log(telefones.match(regexTelefone));
+const regexTelefoneCorrecao = /\(?\d{0,2}?\)?\s?\d{4,5}-?\d{4}/g
 console.log(telefones.match(regexTelefoneCorrecao));
 
 

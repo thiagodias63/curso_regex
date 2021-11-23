@@ -14,3 +14,5 @@ console.log(texto.match(/\w{7}/g));
 // palavras com 7 digitos (todos os digitos) // considerou a acentuação
 console.log(texto.match(/[\wõ]{7,}/g));
 
+// Entre 1 caracter e 2, com bordas
+console.log(texto.match(/\b\d{1,2}\b/g));
